@@ -24,3 +24,5 @@ yarn-error.log*
 
 # all css file
 /src/**/*.css
+
+/server/config/dev.js
