@@ -9,7 +9,7 @@ class RentalList extends Component {
   renderRentals() {
     return this.props.rentals.map((rental) => {
       return (
-        < RentalCard key={rental.id}
+        < RentalCard key={rental._id}
           rental={rental}/>
       )
     })
